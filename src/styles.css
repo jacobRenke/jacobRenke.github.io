@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Staatliches', cursive;
+}
+
+section {
+    background-color: white;
+}
+
+.logo {
+    height: 150px;
+    margin-left: 60px;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 150px;
+    background-color: #1c1d25;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.footer {
+    align-items: center;
+}
+
+nav {
+    display: flex; justify-content: space-between;
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 150px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    font-size: 35px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.hero-billet {
+    padding-bottom: 100px;
+}
+
+.button {
+    width: 200px;
+    height: 60px; 
+    border-radius: 25px;
+    background-color: coral;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.button:hover {
+    background-color: #a03e1d;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 400px;
+}
+
+.social {
+    margin-right: 20px;
+}
+
+a.social {
+    color: #1c1d25;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: #9c9b9b;
+}
+
+.about-me-text {
+    text-shadow: 2px 2px 2px rgb(43, 42, 42);
+}
+
+.about-me-text-box {
+    display: flex;
+    width: 900px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: #9c9b9b;
+}
+
+.projects-text {
+    text-shadow: 2px 2px 2px rgb(43, 42, 42);
+}
+
+.headshot {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 10px 10px 20px rgb(43, 42, 42);
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 200px;
+    height: 300px;
+    box-shadow: 10px 10px 20px rgb(43, 42, 42);
+    padding: 30px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 980px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sub-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .headshot {
+        margin-top: 30px;
+    }
+
+    .about-me-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-me-text-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: inherit;
+    }
+
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #a03e1d;
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 980px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #424558;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #424558;
+    }
+
+    .logo {
+        display: none;
+    }
+}
