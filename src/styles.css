@@ -146,7 +146,6 @@ p {
 a.social {
     color: #1c1d25;
     text-decoration: none;
-    margin-right: 40px;
 }
 
 .sub-section {
@@ -206,40 +205,39 @@ a.social {
 }
 
 @media only screen and (max-height: 600px) {
+    .hero-area {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    
     .hero {
         background-color: #1c1d25;
         height: 700px;
         color: white;
         font-size: 40px;
     }
-
-@media only screen and (max-height: 601px) {
-    .hero-text {
-        margin-left: 95px;
-        margin-bottom: 1%;
-        justify-content: center;
-    }
 }
 
-}
 @media only screen and (max-width: 1024px) {
 
     .hero-area {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 60px;
+        margin-left: 70px;
         margin-top: 30px;
     }
 
     .hero-text {
-        margin-left: 95px;
+        margin-left: 80px;
         margin-bottom: 1%;
         margin-top: 40px;
         justify-content: center;
     }
 
     .socials {
-        margin-left: 320px;
+        margin-left: 315px;
         margin-top: 20px;
     }
 
