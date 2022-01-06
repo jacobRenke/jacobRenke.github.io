@@ -208,6 +208,7 @@ a.social {
     .hero-area {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         margin-left: 70px;
         margin-top: 30px;
     }
@@ -220,11 +221,12 @@ a.social {
     }
 }
 
-@media only screen and (max-width: 1024px) {
-
+@media only screen and (max-width: 1065px) {
+    
     .hero-area {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         margin-left: 70px;
         margin-top: 30px;
     }
@@ -305,7 +307,7 @@ a {
     display: none;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1065px) {
     .hamburger {
         display: block;
         border: 0;
