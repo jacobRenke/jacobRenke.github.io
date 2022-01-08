@@ -9,6 +9,7 @@ body {
 
 section {
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -59,7 +60,6 @@ li {
 
 h1 {
     font-size: 150px;
-    margin: 0px;
 }
 
 h2 {
@@ -82,10 +82,8 @@ p {
 }
 
 .hero-text {
-    margin-left: 95px;
-    margin-bottom: 200px;
     justify-content: center;
-    
+    margin-left: 600px;
 }
 
 .hero-billet {
@@ -136,16 +134,19 @@ p {
 }
 
 .socials {
-    padding-bottom: 400px;
+    margin-top: 20px;
+    margin-left: 235px;
 }
 
 .social {
     margin-right: 20px;
+    display: inline;
 }
 
 a.social {
     color: #1c1d25;
     text-decoration: none;
+    margin-left: auto;
 }
 
 .sub-section {
@@ -208,7 +209,6 @@ a.social {
     .hero-area {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         margin-left: 70px;
         margin-top: 30px;
     }
@@ -222,11 +222,10 @@ a.social {
 }
 
 @media only screen and (max-width: 1065px) {
-    
+
     .hero-area {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         margin-left: 70px;
         margin-top: 30px;
     }
@@ -239,7 +238,7 @@ a.social {
     }
 
     .socials {
-        margin-left: 315px;
+        margin-left: 235px;
         margin-top: 20px;
     }
 
@@ -274,6 +273,15 @@ a.social {
     .button-contact {
         display: center;
         margin-left: 300px;
+    }
+    
+    .button-contact:hover {
+        background-color: #a03e1d;
+    }
+    
+    .button-contact:active {
+        background-color: #A9A9A9;
+        color: #808080;
     }
 
     footer {
@@ -337,4 +345,14 @@ a {
     .logo {
         display: none;
     }
+}
+
+input {
+    height: 40px;
+    width: 150px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
 }
